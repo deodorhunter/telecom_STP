@@ -1,0 +1,28 @@
+NODE: 1
+		with links	1 - 11
+		(RP=true, DP=false)		{11=false}
+		I AM THE ROOT
+NODE: 2
+		with links	2 - 3, 2 - 7
+		(RP=true, DP=false)		{3=true, 7=false}
+		my cost to root is: 5
+NODE: 3
+		with links	3 - 2, 3 - 5
+		(RP=true, DP=false)		{2=false, 5=true}
+		my cost to root is: 4
+NODE: 5
+		with links	5 - 3, 5 - 7, 5 - 9
+		(RP=true, DP=false)		{3=false, 7=false, 9=true}
+		my cost to root is: 3
+NODE: 7
+		with links	7 - 5
+		(RP=true, DP=false)		{5=true}
+		my cost to root is: 4
+NODE: 9
+		with links	9 - 5, 9 - 11
+		(RP=true, DP=false)		{5=false, 11=true}
+		my cost to root is: 2
+NODE: 11
+		with links	11 - 1, 11 - 9
+		(RP=true, DP=false)		{1=true, 9=false}
+		my cost to root is: 1
